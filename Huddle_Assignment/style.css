@@ -1,0 +1,344 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.btn-outline:hover{
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+}
+.Huddle-description{
+    margin-left: 32%;
+    width: 500px;
+    justify-content: center;
+    font-weight: 550;
+    /* align-items: center; */
+}
+
+.Property p{
+    max-width: 500px;
+    line-height: 24px;
+    font-size: 1rem;
+    padding-right: 200px;
+    text-align: start;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px 50px;
+}
+
+.btn-outline {
+    color: hsl(322, 100%, 66%);
+    border-radius: 25px;
+    background: transparent;
+    cursor: pointer;
+    border: 2px solid hsl(322, 100%, 66%);
+    padding: 10px 20px;
+}
+
+.description {
+    padding: 50px;
+}
+
+.description h1{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background: hsl(322, 100%, 66%);
+    color: white;
+    padding: 15px 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+}
+.stats img{
+    position:absolute;
+    top: 1225px;
+    width: 32px;
+    
+   
+}
+
+.stat span{
+    font-size: 50px;
+    font-weight: bold;
+}
+.Property{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  hsl(207, 100%, 98%);
+}
+.Property img {
+    height: 350px;
+    width: 350px;
+}
+.Property h2 {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 10px;
+    font-size: 2rem;
+}
+.Property p{
+    padding-left: 10px;
+}
+.Property1 img{
+    height: 350px;
+    width: 350px;
+}
+.Property1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Property1 p{
+    text-align: justify;
+}
+.Property1 h2 {
+    font-size: 2rem;
+}
+
+.bottom {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.footer-container {
+    padding-top: 80px;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+
+}
+.your-img{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.footer-img{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.grow-img{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.footer-content{
+  background-color: rgb(0, 37, 46);
+  color: #fff;
+  padding: 50px;
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;
+}
+
+.footer-content h1{
+  font-size: 2.7rem;
+}
+.footer-heading-left{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 2px;  
+}
+
+.footer-content p{
+  max-width: 370px;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}
+
+.footer-contact{
+  margin-top: 10px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+.footer-img{
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.footer-right{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 300px;
+}
+
+.footer-right input {
+  width: 330px;
+  padding: 11px;
+  border: none;
+  background-color: none;
+  border-radius: 5px;
+}
+
+.footer-right-container{
+  display: flex;
+  gap: 20px;  
+  align-items: center;
+}
+
+.footer-right button{
+  /* margin-bottom: 80px; */
+  padding: 11px 30px;
+  background-color: hsl(322, 100%, 66%);
+  border: 1px solid hsl(322, 100%, 66%);
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content p{
+    font-size: 0.8rem;
+    line-height: 1.6;
+    text-align: justify;
+    color: rgb(240, 236, 236);
+  }
+
+  .footer-right input {
+    width: 320px;
+  }
+
+  .footer-right button{
+    align-self: flex-end;
+    padding: 9px 20px;
+  }
+
+  .footer-right {
+    margin-left: 90;
+    margin-bottom: 90px;
+    align-items: start;
+    padding-right: 10px;
+  }
+
+  .footer-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .footer-icons{
+    margin-right: 400px;
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+  }
+
+  @media (min-width: 375px) and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center; /* Ensures elements align on the same axis */
+        text-align: start;
+        padding: 15px 25px;
+    }
+    
+    .container img {
+        width: 30%; /* Reduced size for better alignment */
+        max-width: 120px; /* Ensures it doesn't get too large on bigger screens */
+    }
+    
+    .container button {
+        padding: 5px 10px; /* Smaller padding for a more compact button */
+        font-size: 0.6rem; /* Reduced font size */
+        margin-left: 10px; /* Adds space between image and button */
+    }
+    .Huddle-description {
+        margin-left: auto;
+        margin-right: auto;
+        width:90%;
+        text-align: center;
+    }
+
+    .Property,
+    .Property1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .Property img,
+    .Property1 img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .Property h2,
+    .Property1 h2 {
+        font-size: 1.5rem;
+        padding-top: 20px;
+    }
+
+    .Property p,
+    .Property1 p {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .stats {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+    .stat span {
+        font-size: 30px;
+    }
+
+    .btn-outline,
+    .btn-primary {
+        width: 80%;
+        padding: 12px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        padding: 30px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-right {
+        margin-left: 0;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer-right input {
+        width: 90%;
+        text-align: center;
+    }
+
+    .footer-icons {
+        margin-right: 0;
+        justify-content: center;
+    }
+}
